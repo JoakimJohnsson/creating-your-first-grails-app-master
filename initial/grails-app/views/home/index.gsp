@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="no-js">
+
 <head>
     <meta name="layout" content="main"/>
     <title>Home | Jails auto application</title>
@@ -17,7 +17,8 @@
 </div>
 
 <div class="row mb-4">
-    <h2>Our vehicles</h2>
+    <div class="col-12"><h2>Our vehicle collection</h2></div>
+
     <g:each in="${vehicleList}" var="vehicle">
         <div class="col-12 col-sm-6 col-lg-4 mb-3">
             <g:link controller="vehicle" action="show" id="${vehicle.id}" class="card-link">
