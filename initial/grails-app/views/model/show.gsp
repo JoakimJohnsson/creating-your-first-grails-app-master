@@ -17,12 +17,10 @@
         <div class="message" role="status">${flash.message}</div>
     </g:if>
     <f:display bean="model"/>
-    <g:form resource="${this.model}" method="DELETE">
-        <fieldset class="buttons">
-            <g:link class="edit" action="edit" resource="${this.model}"><g:message code="default.button.edit.label" default="Edit"/></g:link>
-            <input class="delete" type="submit" value="${message(code: 'default.button.delete.label', default: 'Delete')}"
+    <g:form resource="${this.model}" method="DELETE" class="j-form">
+            <g:link class="btn btn-warning me-2 btn-sm" action="edit" resource="${this.model}"><g:message code="default.button.edit.label" default="Edit"/></g:link>
+            <input class="btn btn-outline-danger btn-sm" type="submit" value="${message(code: 'default.button.delete.label', default: 'Delete')}"
                    onclick="return confirm('${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');"/>
-        </fieldset>
     </g:form>
 </div>
 </body>

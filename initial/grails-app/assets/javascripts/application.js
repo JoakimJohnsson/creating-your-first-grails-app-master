@@ -6,4 +6,5 @@
 // to create separate JavaScript files as needed.
 //
 //= require bootstrap.bundle.min
+//= require custom.scripts
 //= require_self

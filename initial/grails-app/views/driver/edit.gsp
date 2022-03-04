@@ -24,14 +24,10 @@
             </g:eachError>
         </ul>
     </g:hasErrors>
-    <g:form resource="${this.driver}" method="PUT">
+    <g:form resource="${this.driver}" method="PUT" class="j-form">
         <g:hiddenField name="version" value="${this.driver?.version}"/>
-        <fieldset class="form">
             <f:all bean="driver"/>
-        </fieldset>
-        <fieldset class="buttons">
-            <input class="save" type="submit" value="${message(code: 'default.button.update.label', default: 'Update')}"/>
-        </fieldset>
+            <input class="btn btn-primary" type="submit" value="${message(code: 'default.button.update.label', default: 'Update')}"/>
     </g:form>
 </div>
 </body>

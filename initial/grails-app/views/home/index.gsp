@@ -35,7 +35,7 @@
                     </div>
                 </div>
             </g:link>
-            <a class="btn btn-sm btn-warning mb-4" href="/vehicle/edit/${vehicle.id}"><i class="bi bi-pencil-fill me-2"></i>Edit ${vehicle.name}</a>
+            <a class="btn btn-sm btn-warning me-2 btn-sm mb-4" href="/vehicle/edit/${vehicle.id}"><i class="bi bi-pencil-fill me-2"></i>Edit ${vehicle.name}</a>
         </div>
     </g:each>
 

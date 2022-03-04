@@ -21,13 +21,9 @@
                 </g:eachError>
             </ul>
             </g:hasErrors>
-            <g:form resource="${this.driver}" method="POST">
-                <fieldset class="form">
+            <g:form resource="${this.driver}" method="POST" class="j-form">
                     <f:all bean="driver"/>
-                </fieldset>
-                <fieldset class="buttons">
-                    <g:submitButton name="create" class="save" value="${message(code: 'default.button.create.label', default: 'Create')}" />
-                </fieldset>
+                    <g:submitButton name="create" class="btn btn-primary" value="${message(code: 'default.button.create.label', default: 'Create')}" />
             </g:form>
         </div>
     </body>
