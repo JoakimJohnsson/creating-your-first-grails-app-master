@@ -3,7 +3,7 @@
 <head>
     <meta name="layout" content="main"/>
     <g:set var="entityName" value="${message(code: 'make.label', default: 'Make')}"/>
-    <title><g:message code="default.create.label" args="[entityName]"/></title>
+    <title><g:message code="default.create.label" args="[entityName]"/> | Jails auto application</title>
 </head>
 
 <body>
@@ -25,7 +25,7 @@
     </g:hasErrors>
     <g:form resource="${this.make}" method="POST" class="j-form">
             <f:all bean="make"/>
-            <g:submitButton name="btn btn-primary" class="save" value="${message(code: 'default.button.create.label', default: 'Create')}"/>
+            <g:submitButton name="create" class="btn btn-primary" value="${message(code: 'default.button.create.label', default: 'Create')}"/>
     </g:form>
 </div>
 </body>

@@ -3,7 +3,7 @@
 <head>
     <meta name="layout" content="main"/>
     <g:set var="entityName" value="${message(code: 'make.label', default: 'Make')}"/>
-    <title><g:message code="default.show.label" args="[entityName]"/></title>
+    <title><g:message code="default.show.label" args="[entityName]"/> | Jails auto application</title>
 </head>
 
 <body>

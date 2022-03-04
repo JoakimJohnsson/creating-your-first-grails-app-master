@@ -3,7 +3,7 @@
 <head>
     <meta name="layout" content="main"/>
     <g:set var="entityName" value="${message(code: 'driver.label', default: 'Driver')}"/>
-    <title><g:message code="default.edit.label" args="[entityName]"/></title>
+    <title><g:message code="default.edit.label" args="[entityName]"/> | Jails auto application</title>
 </head>
 
 <body>
