@@ -1,8 +1,8 @@
-<table class="table">
-    <thead>
-    <tr>
+<table class="table table-info table-striped">
+    <thead >
+    <tr class="">
         <g:each in="${domainProperties}" var="p" status="i">
-            <g:sortableColumn property="${p.property}" title="${p.label}" />
+            <g:sortableColumn property="${p.property}" title="${p.label}" class="bg-info text-uppercase"/>
         </g:each>
     </tr>
     </thead>
