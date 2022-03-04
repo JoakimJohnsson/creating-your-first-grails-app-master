@@ -26,8 +26,9 @@
     </g:hasErrors>
     <g:form resource="${this.driver}" method="PUT" class="j-form">
         <g:hiddenField name="version" value="${this.driver?.version}"/>
-            <f:all bean="driver"/>
-            <input class="btn btn-primary" type="submit" value="${message(code: 'default.button.update.label', default: 'Update')}"/>
+        <f:all bean="driver"/>
+        <input class="btn btn-primary" type="submit" value="${message(code: 'default.button.update.label', default: 'Update')}"/>
+        <g:link class="btn btn-outline-secondary" action="index">Cancel</g:link>
     </g:form>
 </div>
 </body>

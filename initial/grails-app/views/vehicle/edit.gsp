@@ -26,8 +26,9 @@
     </g:hasErrors>
     <g:form resource="${this.vehicle}" method="PUT" class="j-form">
         <g:hiddenField name="version" value="${this.vehicle?.version}"/>
-            <f:all bean="vehicle"/>
-            <input class="btn btn-primary" type="submit" value="${message(code: 'default.button.update.label', default: 'Update')}"/>
+        <f:all bean="vehicle"/>
+        <input class="btn btn-primary" type="submit" value="${message(code: 'default.button.update.label', default: 'Update')}"/>
+        <g:link class="btn btn-outline-secondary" action="index">Cancel</g:link>
     </g:form>
 </div>
 </body>
