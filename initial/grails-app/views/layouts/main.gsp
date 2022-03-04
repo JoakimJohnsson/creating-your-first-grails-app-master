@@ -14,6 +14,8 @@
 </head>
 
 <body>
+<a href="#content" class="visually-hidden-focusable" tabindex="-1"><g:message code="default.link.skip.label"
+                                                                                   default="Skip to content&hellip;"/></a>
 <div>
     <header class="navbar-light">
         <nav class="navbar navbar-expand-lg">

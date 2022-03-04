@@ -7,8 +7,6 @@
 </head>
 
 <body>
-<a href="#create-make" class="visually-hidden-focusable" tabindex="-1"><g:message code="default.link.skip.label"
-                                                                                  default="Skip to content&hellip;"/></a>
 
 <g:link class="btn btn-outline-secondary mb-3" action="index"><g:message code="default.list.label" args="[entityName]"/></g:link>
 
